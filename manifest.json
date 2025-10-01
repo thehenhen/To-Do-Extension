@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "To-Do Theme",
+  "version": "1.0",
+  "description": "Replaces the new tab page with a customizable to-do list and theme.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage"]
+}
